@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
- *
- * Return: Always 0 (Success)
- *
+ * main - prints a given phrase
+ * Return: o if existed properly, non-zero
  */
 
 int main(void)
