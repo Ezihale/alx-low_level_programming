@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main - alphabet
- * print= prints 10 times the alphabet-Entry point
+ * print_alphabet_x10 - Make alphabet x10 times
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet_x10(void)
 
 {
 	int i;
@@ -20,5 +19,4 @@ int main(void)
 		}
 		_putchar ('\n');
 	}
-	return (0);
 }
