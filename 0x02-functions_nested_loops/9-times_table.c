@@ -28,7 +28,7 @@ void time_table(void)
 				_putchar(' ');
 				_putchar(ones + '0');
 			}
-			else7
+			else
 			{
 				_putchar(',');
 				_putchar(' ');
