@@ -9,17 +9,15 @@ void prints 10 times the alphabet(void)
 
 {
 	char c = 'a';
+	int i = 0
 
-	while (c <= 'z')
+	while (i <= 9)
 	{
-		char c = '1'
-
-		while (c <= '10')
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			c++;
+			_putchar(c);
 		}
-		_putchar(c);
-		c++;
+		_putchar ('\n');
+		i++;
 	}
-	_putchar('\n')
 }
